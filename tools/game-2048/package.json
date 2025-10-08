@@ -1,0 +1,13 @@
+{
+    "name": "game-2048",
+    "version": "1.0.0",
+    "description": "Classic 2048 game with AI solver",
+    "scripts": {
+        "start": "vite",
+        "build": "vite build",
+        "preview": "vite preview"
+    },
+    "devDependencies": {
+        "vite": "^4.5.0"
+    }
+}
