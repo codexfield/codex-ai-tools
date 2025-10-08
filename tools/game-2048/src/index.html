@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2048 Game with AI</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>2048</h1>
+            <div class="scores-container">
+                <div class="score">
+                    Score: <span id="score">0</span>
+                </div>
+                <div class="best-score">
+                    Best: <span id="best-score">0</span>
+                </div>
+            </div>
+        </header>
+
+        <div class="game-container">
+            <div class="game-message">
+                <p></p>
+                <div class="lower">
+                    <a class="retry-button">Try again</a>
+                </div>
+            </div>
+
+            <div class="grid-container">
+                <!-- Grid cells will be added by JS -->
+            </div>
+        </div>
+
+        <div class="controls">
+            <button id="ai-button">Toggle AI (A)</button>
+            <button id="undo-button">Undo (U)</button>
+        </div>
+
+        <p class="game-explanation">
+            <strong>How to play:</strong> Use your arrow keys to move the tiles.
+            When two tiles with the same number touch, they merge into one!
+            Press 'A' to toggle AI solver, 'U' to undo.
+        </p>
+    </div>
+
+    <script type="module" src="./js/game.js"></script>
+</body>
+
+</html>

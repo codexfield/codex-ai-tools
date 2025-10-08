@@ -1,0 +1,21 @@
+{
+    "name": "2048 AI Game",
+    "slug": "game-2048",
+    "description": "Classic 2048 sliding puzzle game with optional AI solver",
+    "author": {
+        "name": "CodexField",
+        "github": "@codexfield"
+    },
+    "demoPath": "tools/game-2048/dist",
+    "framework": "vanilla",
+    "entry": "index.html",
+    "tags": [
+        "game",
+        "puzzle",
+        "ai"
+    ],
+    "license": "MIT",
+    "previewImage": "screenshot.png",
+    "requiresServer": false,
+    "version": "1.0.0"
+}
