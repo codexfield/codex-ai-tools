@@ -65,29 +65,18 @@ npm start
 ## 🎮 Showcase
 
 <div align="center">
-
-<table>
-
-<tr>
-
-<td align="center">
-
-    <img src="docs/images/chat-preview.png" width="400px"/><br />
-    <sub><b>ChatGPT Client</b></sub>
-
-</td>
-
-<td align="center">
-
-    <img src="docs/images/2048-preview.png" width="400px"/><br />
-    <sub><b>2048 AI Game</b></sub>
-
-</td>
-
-</tr>
-
-</table>
-
+    <table>
+        <tr>
+            <td align="center">
+                <img src="docs/images/chat-preview.png" width="400px"/><br />
+                <sub><b>ChatGPT Client</b></sub>
+            </td>
+            <td align="center">
+                <img src="docs/images/2048-preview.png" width="400px"/><br />
+                <sub><b>2048 AI Game</b></sub>
+            </td>
+        </tr>
+    </table>
 </div>
 
 ## 🤝 Contributing
