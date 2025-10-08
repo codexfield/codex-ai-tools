@@ -11,8 +11,7 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 [![Last Commit](https://img.shields.io/github/last-commit/codexfield/codex-ai-tools)](https://github.com/codexfield/codex-ai-tools/commits/main)
 
-**探索、体验、贡献 AI 工具的开放实验室**  
-*An Open Laboratory for AI Tools Exploration*
+**探索、体验、贡献 AI 工具的开放实验室**
 
 [🎮 在线体验](https://codex-ai-tools.vercel.app) | [📖 贡献指南](CONTRIBUTING.md) | [🌟 最新工具](#featured-tools) | [📱 移动端适配](#mobile-support)
 
@@ -31,14 +30,14 @@ Codex AI Tools 是一个开放的 AI 工具实验室，我们致力于：
 
 | 工具 | 描述 | 预览 | 状态 |
 |------|------|------|------|
-| [ChatGPT Client](tools/chat-gpt) | 简洁优雅的 ChatGPT 客户端 | [Try it](https://codex-ai-tools.vercel.app/chat-gpt) | ✅ Active |
-| [2048 AI Game](tools/game-2048) | 经典 2048 游戏 + AI 求解器 | [Try it](https://codex-ai-tools.vercel.app/game-2048) | ✅ Active |
+| [ChatGPT 客户端](tools/chat-gpt) | 简洁优雅的 ChatGPT 客户端 | [立即体验](https://codex-ai-tools.vercel.app/chat-gpt) | ✅ 活跃 |
+| [2048 AI 游戏](tools/game-2048) | 经典 2048 游戏 + AI 求解器 | [立即体验](https://codex-ai-tools.vercel.app/game-2048) | ✅ 活跃 |
 
 ## 🚀 快速开始
 
 ### 在线体验
 
-访问我们的 [showcase 网站](https://codex-ai-tools.vercel.app) 即可体验所有工具。
+访问我们的[展示网站](https://codex-ai-tools.vercel.app)即可体验所有工具。
 
 ### 本地开发
 
@@ -80,7 +79,7 @@ npm start
 3. 💡 提出新功能建议
 4. 📖 改进文档
 
-查看 [贡献指南](CONTRIBUTING.md) 了解详细信息。
+查看[贡献指南](CONTRIBUTING.md)了解详细信息。
 
 ### 添加新工具
 
@@ -121,17 +120,17 @@ npm start
 
 ## 📈 项目状态
 
-![Activity Graph](https://activity-graph.herokuapp.com/graph?username=codexfield&theme=minimal)
+![活动图表](https://activity-graph.herokuapp.com/graph?username=codexfield&theme=minimal)
 
 ## 📞 联系我们
 
-- 📧 Email: [your-email@example.com](mailto:your-email@example.com)
-- 💬 Discussions: [GitHub Discussions](https://github.com/codexfield/codex-ai-tools/discussions)
-- 🐛 Issues: [GitHub Issues](https://github.com/codexfield/codex-ai-tools/issues)
+- 📧 邮箱：[contact@codexfield.dev](mailto:contact@codexfield.dev)
+- 💬 讨论：[GitHub Discussions](https://github.com/codexfield/codex-ai-tools/discussions)
+- 🐛 问题：[GitHub Issues](https://github.com/codexfield/codex-ai-tools/issues)
 
-## ⭐ Star History
+## ⭐ Star 历史
 
-[![Star History Chart](https://api.star-history.com/svg?repos=codexfield/codex-ai-tools&type=Date)](https://star-history.com/#codexfield/codex-ai-tools&Date)
+[![Star 历史图表](https://api.star-history.com/svg?repos=codexfield/codex-ai-tools&type=Date)](https://star-history.com/#codexfield/codex-ai-tools&Date)
 
 ## 📜 开源协议
 
@@ -141,7 +140,7 @@ npm start
 
 <div align="center">
 
-**Made with ❤️ by the AI community**
+**由 AI 社区用 ❤️ 制作**
 
 [🔝 返回顶部](#-codex-ai-tools)
 
