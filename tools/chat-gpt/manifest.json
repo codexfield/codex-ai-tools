@@ -1,0 +1,22 @@
+{
+    "name": "ChatGPT Client",
+    "slug": "chat-gpt",
+    "description": "A simple ChatGPT client that lets you chat with GPT models using your own API key",
+    "author": {
+        "name": "CodexField",
+        "github": "@codexfield"
+    },
+    "demoPath": "tools/chat-gpt/dist",
+    "framework": "vanilla",
+    "entry": "index.html",
+    "tags": [
+        "ai",
+        "chat",
+        "gpt",
+        "openai"
+    ],
+    "license": "MIT",
+    "previewImage": "screenshot.png",
+    "requiresServer": false,
+    "version": "1.0.0"
+}
