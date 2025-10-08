@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChatGPT Client</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="settings-panel" id="settingsPanel">
+            <h2>Settings</h2>
+            <div class="api-key-section">
+                <label for="apiKey">OpenAI API Key:</label>
+                <input type="password" id="apiKey" placeholder="sk-...">
+                <button id="saveKey">Save Key</button>
+                <p class="hint">Your API key is stored locally in your browser.</p>
+            </div>
+            <div class="model-section">
+                <label for="model">Model:</label>
+                <select id="model">
+                    <option value="gpt-3.5-turbo">GPT-3.5 Turbo</option>
+                    <option value="gpt-4">GPT-4 (if available)</option>
+                </select>
+            </div>
+            <div class="system-prompt-section">
+                <label for="systemPrompt">System Prompt:</label>
+                <textarea id="systemPrompt" rows="3">You are a helpful AI assistant.</textarea>
+            </div>
+        </div>
+
+        <div class="chat-container">
+            <div class="chat-header">
+                <h1>ChatGPT Client</h1>
+                <button id="toggleSettings">⚙️ Settings</button>
+            </div>
+
+            <div class="messages" id="messages"></div>
+
+            <div class="input-area">
+                <textarea id="userInput" placeholder="Type your message here... (Shift + Enter for new line)"
+                    rows="3"></textarea>
+                <button id="sendButton">Send</button>
+            </div>
+        </div>
+    </div>
+
+    <script type="module" src="./js/app.js"></script>
+</body>
+
+</html>

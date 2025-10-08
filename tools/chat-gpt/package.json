@@ -1,0 +1,17 @@
+{
+    "name": "chat-gpt",
+    "version": "1.0.0",
+    "description": "Simple ChatGPT client",
+    "scripts": {
+        "start": "vite",
+        "build": "vite build",
+        "preview": "vite preview"
+    },
+    "dependencies": {
+        "highlight.js": "^11.8.0",
+        "marked": "^9.1.0"
+    },
+    "devDependencies": {
+        "vite": "^4.5.0"
+    }
+}
