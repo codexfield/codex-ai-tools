@@ -2,22 +2,16 @@
 
 
 <div align="center">
+
 [English](README.md) | [한국어](README.ko.md) | [日本語](README.ja.md) | [中文](README.zh-CN.md)
 
 ![Banner](https://via.placeholder.com/800x200/10a37f/ffffff?text=Codex+AI+Tools)
 
-[![Stars](https://img.shields.io/github/stars/codexfield/codex-ai-tools?style=social)](https://github.com/codexfield/codex-ai-tools/stargazers)
-
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
-
-[![Last Commit](https://img.shields.io/github/last-commit/codexfield/codex-ai-tools)](https://github.com/codexfield/codex-ai-tools/commits/main)
+[![Stars](https://img.shields.io/github/stars/codexfield/codex-ai-tools?style=social)](https://github.com/codexfield/codex-ai-tools/stargazers)[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)[![Last Commit](https://img.shields.io/github/last-commit/codexfield/codex-ai-tools)](https://github.com/codexfield/codex-ai-tools/commits/main)
 
 **An Open Laboratory for AI Tools Exploration**
 
 [🎮 Try Online](https://codex-ai-tools.vercel.app) | [📖 Contributing](CONTRIBUTING.md) | [🌟 Latest Tools](#featured-tools) | [📱 Mobile Support](#mobile-support)
-
 
 </div>
 
@@ -37,11 +31,8 @@ Codex AI Tools is an open laboratory for AI tools, dedicated to:
 ## 🌟 Featured Tools
 
 | Tool | Description | Preview | Status |
-
 |------|-------------|---------|---------|
-
 | [ChatGPT Client](tools/chat-gpt) | Elegant ChatGPT client | [Try it](https://codex-ai-tools.vercel.app/chat-gpt) | ✅ Active |
-
 | [2048 AI Game](tools/game-2048) | Classic 2048 game with AI solver | [Try it](https://codex-ai-tools.vercel.app/game-2048) | ✅ Active |
 
 
