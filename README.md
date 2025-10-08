@@ -1,8 +1,31 @@
 # 🚀 Codex AI Tools
 
-<div align="center">
+<div align="ce## 🚀 Quick Start
 
-[English](README.md) | [简体中文](README.zh-CN.md) | [한국어](README.ko.md) | [日本語](README.ja.md)
+### Online Demo
+
+Visit ## 🤝 Contributing
+
+We welcome all forms of contributions!
+
+1. 🔄 Fork & Pull Request
+2. 🐛 Submit Bug Reports
+3. 💡 Propose New Features
+4. 📖 Improve Documentation
+
+See our [Contributing Guide](CONTRIBUTING.md) for details.
+
+### Adding New Tools
+
+1. Create tool directory: `tools/<your-tool-name>/`
+2. Add required files:
+   - manifest.json (tool metadata)
+   - README.md (usage instructions)
+   - src/ (source code)
+3. Submit PRte](https://codex-ai-tools.vercel.app) to try all tools instantly.
+
+### Local Development
+[English](README.md) | [한국어](README.ko.md) | [日本語](README.ja.md) | [中文](README.zh-CN.md)
 
 ![Banner](https://via.placeholder.com/800x200/10a37f/ffffff?text=Codex+AI+Tools)
 
@@ -11,28 +34,27 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 [![Last Commit](https://img.shields.io/github/last-commit/codexfield/codex-ai-tools)](https://github.com/codexfield/codex-ai-tools/commits/main)
 
-**探索、体验、贡献 AI 工具的开放实验室**  
-*An Open Laboratory for AI Tools Exploration*
+**An Open Laboratory for AI Tools Exploration**
 
-[🎮 在线体验](https://codex-ai-tools.vercel.app) | [📖 贡献指南](CONTRIBUTING.md) | [🌟 最新工具](#featured-tools) | [📱 移动端适配](#mobile-support)
+[🎮 Try Online](https://codex-ai-tools.vercel.app) | [📖 Contributing](CONTRIBUTING.md) | [🌟 Latest Tools](#featured-tools) | [📱 Mobile Support](#mobile-support)
 
 </div>
 
-## 🎯 项目愿景
+## 🎯 Vision
 
-Codex AI Tools 是一个开放的 AI 工具实验室，我们致力于：
+Codex AI Tools is an open laboratory for AI tools, dedicated to:
 
-- 🔬 探索 AI 技术的创新应用
-- 🎮 提供即时可用的 AI 工具和游戏
-- 🤝 建立活跃的开发者社区
-- 📚 分享 AI 开发经验和最佳实践
+- 🔬 Exploring innovative AI applications
+- 🎮 Providing instantly usable AI tools and games
+- 🤝 Building an active developer community
+- 📚 Sharing AI development experience and best practices
 
-## 🌟 特色工具
+## 🌟 Featured Tools
 
-| 工具 | 描述 | 预览 | 状态 |
-|------|------|------|------|
-| [ChatGPT Client](tools/chat-gpt) | 简洁优雅的 ChatGPT 客户端 | [Try it](https://codex-ai-tools.vercel.app/chat-gpt) | ✅ Active |
-| [2048 AI Game](tools/game-2048) | 经典 2048 游戏 + AI 求解器 | [Try it](https://codex-ai-tools.vercel.app/game-2048) | ✅ Active |
+| Tool | Description | Preview | Status |
+|------|-------------|---------|---------|
+| [ChatGPT Client](tools/chat-gpt) | Elegant ChatGPT client | [Try it](https://codex-ai-tools.vercel.app/chat-gpt) | ✅ Active |
+| [2048 AI Game](tools/game-2048) | Classic 2048 game with AI solver | [Try it](https://codex-ai-tools.vercel.app/game-2048) | ✅ Active |
 
 ## 🚀 快速开始
 
@@ -91,41 +113,41 @@ npm start
    - src/（源代码）
 3. 提交 PR
 
-## 📱 移动端适配
+## 📱 Mobile Support
 
-所有工具都经过响应式设计，支持：
-- 📱 手机
-- 📱 平板
-- 💻 桌面端
+All tools are responsive and support:
+- 📱 Smartphones
+- 📱 Tablets
+- 💻 Desktop
 
-## 🛡️ 安全性
+## 🛡️ Security
 
-- 所有工具都是纯前端实现
-- API 密钥安全存储
-- 代码自动安全扫描
-- 依赖定期更新
+- Pure frontend implementation
+- Secure API key storage
+- Automated security scanning
+- Regular dependency updates
 
-## 📊 数据和隐私
+## 📊 Data & Privacy
 
-- 🔒 无服务器端数据存储
-- 💾 仅使用浏览器本地存储
-- 🤝 透明的数据处理流程
+- 🔒 No server-side storage
+- 💾 Browser local storage only
+- 🤝 Transparent data handling
 
-## 🌐 技术栈
+## 🌐 Tech Stack
 
-- 🎨 前端：HTML5, CSS3, JavaScript
-- 🛠️ 构建：Vite
-- 📦 包管理：npm
-- 🚀 部署：Vercel/Netlify
-- 🔄 CI/CD：GitHub Actions
+- 🎨 Frontend: HTML5, CSS3, JavaScript
+- 🛠️ Build: Vite
+- 📦 Package Manager: npm
+- 🚀 Deployment: Vercel/Netlify
+- 🔄 CI/CD: GitHub Actions
 
-## 📈 项目状态
+## 📈 Project Status
 
 ![Activity Graph](https://activity-graph.herokuapp.com/graph?username=codexfield&theme=minimal)
 
-## 📞 联系我们
+## 📞 Contact
 
-- 📧 Email: [your-email@example.com](mailto:your-email@example.com)
+- 📧 Email: [contact@codexfield.dev](mailto:contact@codexfield.dev)
 - 💬 Discussions: [GitHub Discussions](https://github.com/codexfield/codex-ai-tools/discussions)
 - 🐛 Issues: [GitHub Issues](https://github.com/codexfield/codex-ai-tools/issues)
 
@@ -133,9 +155,9 @@ npm start
 
 [![Star History Chart](https://api.star-history.com/svg?repos=codexfield/codex-ai-tools&type=Date)](https://star-history.com/#codexfield/codex-ai-tools&Date)
 
-## 📜 开源协议
+## 📜 License
 
-本项目采用 [MIT](LICENSE) 协议。
+This project is licensed under the [MIT](LICENSE) License.
 
 ---
 
@@ -143,6 +165,4 @@ npm start
 
 **Made with ❤️ by the AI community**
 
-[🔝 返回顶部](#-codex-ai-tools)
-
-</div>
+[🔝 Back to top](#-codex-ai-tools)
