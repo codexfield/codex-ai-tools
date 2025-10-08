@@ -1,0 +1,50 @@
+name: CI/CD Preview
+
+on:
+  pull_request:
+    paths:
+      - 'tools/**'
+      - '.github/workflows/**'
+
+jobs:
+  build-and-preview:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Detect Changed Tools
+        id: changes
+        run: |
+          CHANGED=$(git diff --name-only ${{ github.event.pull_request.base.sha }} ${{ github.sha }} | grep '^tools/' || true)
+          echo "::set-output name=tools::$CHANGED"
+          
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+          
+      - name: Install Dependencies and Build Tools
+        run: |
+          for tool in ${{ steps.changes.outputs.tools }}; do
+            if [ -f "$tool/package.json" ]; then
+              echo "Building $tool"
+              cd $tool
+              npm ci
+              npm run build
+              cd -
+            fi
+          done
+          
+      - name: Deploy Preview to Netlify
+        uses: nwtgck/actions-netlify@v2.0
+        with:
+          publish-dir: './tools'
+          deploy-message: 'Preview Deploy from GitHub Actions'
+          enable-pull-request-comment: true
+          enable-commit-comment: false
+          overwrites-pull-request-comment: true
+        env:
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
+        timeout-minutes: 5
