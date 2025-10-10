@@ -34,6 +34,7 @@ Codex AI Tools is an open laboratory for AI tools, dedicated to:
 |------|-------------|---------|---------|
 | [ChatGPT Client](tools/chat-gpt) | Elegant ChatGPT client | [Try it](https://codex-ai-tools.vercel.app/chat-gpt) | ✅ Active |
 | [2048 AI Game](tools/game-2048) | Classic 2048 game with AI solver | [Try it](https://codex-ai-tools.vercel.app/game-2048) | ✅ Active |
+| [AI Image Generator](tools/image-generator) | Text-to-image generation with style presets | [Try it](https://codex-ai-tools.vercel.app/image-generator) | ✅ Active |
 
 
 ## 🚀 Quick Start

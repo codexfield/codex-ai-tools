@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Image Generator</title>
+    <style>
+        :root {
+            --primary: #10a37f;
+            --background: #f7f7f8;
+            --text: #374151;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background: var(--background);
+            color: var(--text);
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .input-field {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+
+        .button {
+            background: var(--primary);
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: opacity 0.2s;
+        }
+
+        .button:hover {
+            opacity: 0.9;
+        }
+
+        .button:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+
+        .result {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .result img {
+            max-width: 100%;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .presets {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+
+        .preset-button {
+            background: white;
+            border: 1px solid #ddd;
+            padding: 8px;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .preset-button:hover {
+            border-color: var(--primary);
+            color: var(--primary);
+        }
+
+        .loading {
+            display: none;
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .loading.active {
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🎨 AI Image Generator</h1>
+            <p>Turn your imagination into reality with AI-powered image generation</p>
+        </div>
+
+        <div class="form-group">
+            <textarea class="input-field" id="prompt" rows="4"
+                placeholder="Describe the image you want to generate..."></textarea>
+        </div>
+
+        <div class="form-group">
+            <h3>Style Presets</h3>
+            <div class="presets" id="presets">
+                <button class="preset-button" data-style="realistic">Realistic</button>
+                <button class="preset-button" data-style="anime">Anime</button>
+                <button class="preset-button" data-style="3d">3D Render</button>
+                <button class="preset-button" data-style="watercolor">Watercolor</button>
+                <button class="preset-button" data-style="oil">Oil Painting</button>
+                <button class="preset-button" data-style="sketch">Sketch</button>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <button id="generate" class="button">Generate Image</button>
+        </div>
+
+        <div class="loading" id="loading">
+            <p>🎨 Creating your masterpiece...</p>
+        </div>
+
+        <div class="result" id="result"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

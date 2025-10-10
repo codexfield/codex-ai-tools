@@ -32,6 +32,7 @@ Codex AI Tools는 AI 도구의 오픈 연구소로서 다음을 목표로 합니
 |------|------|----------|------|
 | [ChatGPT 클라이언트](tools/chat-gpt) | 우아한 ChatGPT 클라이언트 | [체험하기](https://codex-ai-tools.vercel.app/chat-gpt) | ✅ 활성 |
 | [2048 AI 게임](tools/game-2048) | AI 솔버가 있는 2048 게임 | [체험하기](https://codex-ai-tools.vercel.app/game-2048) | ✅ 활성 |
+| [AI Image Generator](tools/image-generator) | Text-to-image generation with style presets | [Try it](https://codex-ai-tools.vercel.app/image-generator) | ✅ Active |
 
 ## 🚀 빠른 시작
 
