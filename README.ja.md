@@ -33,6 +33,7 @@ Codex AI Toolsは、AIツールのオープンラボとして以下を目指し�
 | [ChatGPTクライアント](tools/chat-gpt) | エレガントなChatGPTクライアント | [試す](https://codex-ai-tools.vercel.app/chat-gpt) | ✅ アクティブ |
 | [2048 AIゲーム](tools/game-2048) | AIソルバー付きの2048ゲーム | [試す](https://codex-ai-tools.vercel.app/game-2048) | ✅ アクティブ |
 | [AI Image Generator](tools/image-generator) | Text-to-image generation with style presets | [Try it](https://codex-ai-tools.vercel.app/image-generator) | ✅ Active |
+| [Voice Assistant](tools/voice-assistant) | Multilingual speech recognition and synthesis | [Try it](https://codex-ai-tools.vercel.app/voice-assistant) | ✅ Active |
 
 ## 🚀 クイックスタート
 

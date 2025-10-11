@@ -33,6 +33,7 @@ Codex AI Tools 是一个开放的 AI 工具实验室，我们致力于：
 | [ChatGPT 客户端](tools/chat-gpt) | 简洁优雅的 ChatGPT 客户端 | [立即体验](https://codex-ai-tools.vercel.app/chat-gpt) | ✅ 活跃 |
 | [2048 AI 游戏](tools/game-2048) | 经典 2048 游戏 + AI 求解器 | [立即体验](https://codex-ai-tools.vercel.app/game-2048) | ✅ 活跃 |
 | [AI Image Generator](tools/image-generator) | Text-to-image generation with style presets | [Try it](https://codex-ai-tools.vercel.app/image-generator) | ✅ Active |
+| [Voice Assistant](tools/voice-assistant) | Multilingual speech recognition and synthesis | [Try it](https://codex-ai-tools.vercel.app/voice-assistant) | ✅ Active |
 
 ## 🚀 快速开始
 
