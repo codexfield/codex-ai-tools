@@ -4,7 +4,7 @@
 
 [English](README.md) | [한국어](README.ko.md) | [日本語](README.ja.md) | [简体中文](README.zh-CN.md)
 
-![Banner](https://via.placeholder.com/800x200/10a37f/ffffff?text=Codex+AI+Tools)
+![Banner](resources/banner.png)
 
 [![Stars](https://img.shields.io/github/stars/codexfield/codex-ai-tools?style=social)](https://github.com/codexfield/codex-ai-tools/stargazers)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
