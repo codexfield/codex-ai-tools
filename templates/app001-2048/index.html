@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codex 2048</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>2048</h1>
+            <div class="scores">
+                <div class="score-box">
+                    <span class="score-label">Score</span>
+                    <span id="score">0</span>
+                </div>
+                <div class="score-box">
+                    <span class="score-label">Best</span>
+                    <span id="best-score">0</span>
+                </div>
+            </div>
+            <div class="controls">
+                <button id="new-game">New Game</button>
+            </div>
+        </div>
+
+        <div class="game-container">
+            <div class="game-message">
+                <p></p>
+                <div class="lower">
+                    <button class="retry-button">Try again</button>
+                </div>
+            </div>
+
+            <div class="grid-container">
+                <!-- Grid cells will be created by JavaScript -->
+            </div>
+        </div>
+
+        <div class="how-to-play">
+            <p>Use <strong>arrow keys</strong> or <strong>swipe</strong> to move the tiles. When two tiles with the same
+                number touch, they <strong>merge into one!</strong></p>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
