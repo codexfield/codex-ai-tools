@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>QR Code Generator</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body class="light" data-lang="en">
+    <main class="container">
+        <header>
+            <h1 data-i18n="title">QR Code Generator</h1>
+            <div class="controls">
+                <select id="lang" aria-label="Language">
+                    <option value="en">English</option>
+                    <option value="ja">日本語</option>
+                    <option value="ko">한국어</option>
+                    <option value="fr">Français</option>
+                    <option value="zh-TW">繁體中文</option>
+                </select>
+                <button id="themeToggle" title="Toggle theme" aria-pressed="false">🌗</button>
+            </div>
+        </header>
+
+        <section class="app-grid">
+            <form id="qrForm" class="panel">
+                <label for="type" data-i18n="label_type">Content type</label>
+                <select id="type">
+                    <option value="url">URL</option>
+                    <option value="text">Text</option>
+                    <option value="contact">Contact (vCard)</option>
+                    <option value="sms">SMS</option>
+                    <option value="email">Email</option>
+                </select>
+
+                <div id="fieldUrl" class="field">
+                    <label for="inputUrl" data-i18n="label_url">URL</label>
+                    <input id="inputUrl" type="url" placeholder="https://example.com" />
+                </div>
+
+                <div id="fieldText" class="field hidden">
+                    <label for="inputText" data-i18n="label_text">Text</label>
+                    <textarea id="inputText" rows="5" maxlength="800"
+                        placeholder="Enter text (max 800 chars)"></textarea>
+                </div>
+
+                <div id="fieldContact" class="field hidden contact-grid">
+                    <label data-i18n="label_contact">Contact</label>
+                    <input id="c_name" placeholder="Full name" />
+                    <input id="c_org" placeholder="Organization" />
+                    <input id="c_phone" placeholder="Phone" />
+                    <input id="c_email" placeholder="Email" />
+                </div>
+
+                <div id="fieldSMS" class="field hidden">
+                    <label for="inputSMS" data-i18n="label_sms">SMS</label>
+                    <input id="inputSMS" placeholder="+15551234567" />
+                    <textarea id="inputSMSBody" rows="3" maxlength="200" placeholder="Message (optional)"></textarea>
+                </div>
+
+                <div id="fieldEmail" class="field hidden">
+                    <label for="inputEmail" data-i18n="label_email">Email</label>
+                    <input id="inputEmail" placeholder="to@example.com" />
+                    <input id="inputEmailSubject" placeholder="Subject (optional)" />
+                    <textarea id="inputEmailBody" rows="3" maxlength="500" placeholder="Body (optional)"></textarea>
+                </div>
+
+                <div class="actions">
+                    <button type="button" id="generate">Generate</button>
+                    <button type="button" id="clear">Clear</button>
+                    <button type="button" id="download" disabled>Download</button>
+                </div>
+
+                <p class="note" id="note" data-i18n="note">Notes: Inputs are validated. Avoid extremely long text.
+                    JavaScript URLs are blocked.</p>
+            </form>
+
+            <aside class="panel preview">
+                <h2 data-i18n="preview">Preview</h2>
+                <div class="qr-wrap">
+                    <canvas id="qrCanvas" width="256" height="256" aria-hidden="true"></canvas>
+                    <img id="qrImg" alt="QR preview" class="hidden" />
+                </div>
+                <div class="meta">
+                    <label data-i18n="size">Size</label>
+                    <input id="size" type="range" min="128" max="1024" value="256">
+                </div>
+            </aside>
+        </section>
+        <footer>
+            <small data-i18n="footer">Lightweight front-end QR generator — works in-browser. Translations & theme
+                available.</small>
+        </footer>
+    </main>
+
+    <!-- QR code library (CDN). If you need offline use, replace with a bundled QR library file. -->
+    <script src="https://cdn.jsdelivr.net/npm/qrcode@1.5.1/build/qrcode.min.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
